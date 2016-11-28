@@ -41,7 +41,7 @@ module HanamiWebpack
         Hanami
           .public_directory
           .join(*HanamiWebpack::Config.public_path.split('/'))
-          .join('manifest.json')
+          .join('assets.json')
 
       file = File.read(path)
 
